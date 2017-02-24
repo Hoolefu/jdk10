@@ -189,7 +189,6 @@ AC_DEFUN_ONCE([HOTSPOT_SETUP_DTRACE],
   else
     AC_MSG_ERROR([Invalid value for --enable-dtrace: $enable_dtrace])
   fi
-  AC_SUBST(INCLUDE_DTRACE)
 ])
 
 ################################################################################
